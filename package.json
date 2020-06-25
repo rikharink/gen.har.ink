@@ -18,7 +18,7 @@
     "eslint": "7.3.1",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-prettier": "3.1.4",
-    "fork-ts-checker-webpack-plugin": "5.0.4",
+    "fork-ts-checker-webpack-plugin": "5.0.5",
     "html-webpack-plugin": "4.3.0",
     "media-query-splitting-plugin": "1.1.16",
     "mini-css-extract-plugin": "0.9.0",
