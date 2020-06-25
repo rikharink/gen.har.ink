@@ -1,22 +1,11 @@
 import ColorChangeFilter from '../filters/color/color-change';
-import { clearStage } from './util';
+import { setupStage } from './util';
 import { Application, Graphics } from 'pixi.js';
 
 let app: Application | undefined = undefined;
 
 export function cubicDisarray(width: number, height: number, squareSize: number, padding: number): void {
-    if (!app || !document.querySelector('canvas')) {
-        app = new Application({
-            width: width,
-            height: height,
-            backgroundColor: 0x000000,
-        });
-        document.body.appendChild(app.view);
-    } else {
-        app.renderer.resize(width, height);
-    }
-    clearStage(app.stage);
-
+    app = setupStage(app, 0x000000, width, height);
     const filter = new ColorChangeFilter();
     app.stage.filters = [filter];
 
