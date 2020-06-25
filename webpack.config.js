@@ -9,13 +9,18 @@ const MediaQuerySplittingPlugin = require('media-query-splitting-plugin');
 const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-    entry: './src/index.ts',
+    entry: {
+        app: './src/index.ts',
+    },
     devtool: 'inline-source-map',
     devServer: {
         contentBase: './dist',
     },
     optimization: {
         minimizer: [new TerserJSPlugin({}), new OptimizeCSSAssetsPlugin({})],
+        splitChunks: {
+            chunks: 'all',
+        },
     },
     module: {
         rules: [
@@ -45,13 +50,17 @@ module.exports = {
                     'postcss-loader',
                 ],
             },
+            {
+                test: /\.(shader|vert|frag|geom)$/i,
+                use: 'raw-loader',
+            },
         ],
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
     },
     output: {
-        filename: 'bundle.js',
+        filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
@@ -79,6 +88,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             title: 'ART.HAR.INK',
+            chunks: ['app'],
         }),
     ],
 };
