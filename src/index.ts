@@ -10,7 +10,7 @@ const height = () => window.innerHeight * window.devicePixelRatio;
 const pieces = [
     () => tiledLines(width(), height(), random(8, 50)),
     () => cubicDisarray(width(), height(), window.innerWidth > 400 ? 30 : 60, 100),
-    () => triangularMesh(width(), height(), width() / random(8, 25)),
+    () => triangularMesh(width(), height(), width() / random(8, 25), random(0.2, 1)),
 ];
 
 // let currentPiece = Math.floor(random(0, pieces.length - 1));

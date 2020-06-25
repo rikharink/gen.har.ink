@@ -16,9 +16,13 @@ export function setupStage(app: Application, color: number, width: number, heigh
     return app;
 }
 
-export function center(stage: Container): void {
-    stage.x = window.innerWidth / 2 - stage.width / 2;
-    stage.y = window.innerHeight / 2 - stage.height / 2;
+export function center(stage: Container, horizontal: boolean, vertical: boolean): void {
+    if (horizontal) {
+        stage.x = window.innerWidth / 2 - stage.width / 2;
+    }
+    if (vertical) {
+        stage.y = window.innerHeight / 2 - stage.height / 2;
+    }
 }
 
 export function clearStage(stage: Container): void {

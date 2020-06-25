@@ -6,7 +6,7 @@ import ColorChangeFilter from '../filters/color/color-change';
 
 let app: Application;
 
-export function triangularMesh(width: number, height: number, gap: number): void {
+export function triangularMesh(width: number, height: number, gap: number, randomness: number): void {
     app = setupStage(app, 0xffffff, width, height);
 
     const size = height;
@@ -14,13 +14,13 @@ export function triangularMesh(width: number, height: number, gap: number): void
     let odd = false;
     let line: Point[] = [];
 
-    for (let y = gap / 2; y <= size; y += gap) {
+    for (let y = 4; y <= size; y += gap) {
         odd = !odd;
         line = [];
-        for (let x = gap / 4; x <= size; x += gap) {
+        for (let x = 0; x <= size; x += gap) {
             line.push({
-                x: x + (Math.random() * 0.8 - 0.4) * gap + (odd ? gap / 2 : 0),
-                y: y + (Math.random() * 0.8 - 0.4) * gap,
+                x: x + Math.random() * randomness * gap + (odd ? gap / 2 : 0),
+                y: y + Math.random() * randomness * gap,
             });
         }
         lines.push(line);
@@ -58,5 +58,5 @@ export function triangularMesh(width: number, height: number, gap: number): void
     const filter = new ColorChangeFilter();
     app.stage.filters = [filter];
     requestAnimationFrame(filter.animate.bind(filter));
-    center(app.stage);
+    center(app.stage, true, true);
 }
