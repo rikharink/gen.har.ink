@@ -32,5 +32,4 @@ export function cubicDisarray(width: number, height: number, squareSize: number,
             draw(rotateAmt, i + translateAmt + offset + (width - height) / 2, j + offset, squareSize, squareSize);
         }
     }
-    requestAnimationFrame(filter.animate.bind(filter));
 }

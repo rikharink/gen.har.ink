@@ -57,6 +57,5 @@ export function triangularMesh(width: number, height: number, gap: number, rando
 
     const filter = new ColorChangeFilter();
     app.stage.filters = [filter];
-    requestAnimationFrame(filter.animate.bind(filter));
     center(app.stage, true, true);
 }

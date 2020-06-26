@@ -6,7 +6,6 @@ varying vec2 vTextureCoord;
 
 uniform sampler2D uSampler;
 uniform float iTime;
-uniform float time;
 
 void main(void){
   // Time varying pixel color

@@ -34,5 +34,4 @@ export function tiledLines(width: number, height: number, step: number): void {
             draw(x, y, step, step);
         }
     }
-    requestAnimationFrame(filter.animate.bind(filter));
 }

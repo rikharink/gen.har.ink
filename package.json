@@ -5,13 +5,17 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "test": "jest",
     "start": "cross-env NODE_ENV=development webpack-dev-server --open --mode development",
     "watch": "webpack --watch",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/lodash": "^4.14.157",
     "@typescript-eslint/eslint-plugin": "3.4.0",
     "@typescript-eslint/parser": "3.4.0",
+    "canvas": "^2.6.1",
     "clean-webpack-plugin": "3.0.0",
     "cross-env": "7.0.2",
     "css-loader": "3.6.0",
@@ -20,6 +24,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "fork-ts-checker-webpack-plugin": "5.0.4",
     "html-webpack-plugin": "4.3.0",
+    "jest": "^26.1.0",
     "media-query-splitting-plugin": "1.1.16",
     "mini-css-extract-plugin": "0.9.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
@@ -34,6 +39,7 @@
     "stylelint-config-standard": "20.0.0",
     "stylelint-prettier": "1.1.2",
     "terser-webpack-plugin": "3.0.6",
+    "ts-jest": "^26.1.1",
     "ts-loader": "7.0.5",
     "typescript": "3.9.5",
     "webpack": "4.43.0",
@@ -43,6 +49,9 @@
     "worker-loader": "2.0.0"
   },
   "dependencies": {
-    "pixi.js": "5.3.0"
+    "lodash": "^4.17.15",
+    "pixi-projection": "^0.3.12",
+    "pixi.js": "5.3.0",
+    "three": "^0.118.1"
   }
 }

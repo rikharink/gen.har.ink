@@ -9,6 +9,7 @@ export default class ColorChangeFilter extends Filter {
             type: 'f',
             value: 0.0,
         };
+        requestAnimationFrame(this.animate.bind(this));
     }
 
     animate(time: number): void {
