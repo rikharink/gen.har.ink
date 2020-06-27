@@ -52,6 +52,6 @@
     "lodash": "4.17.15",
     "pixi-projection": "0.3.12",
     "pixi.js": "5.3.0",
-    "three": "0.118.1"
+    "three": "0.118.3"
   }
 }
