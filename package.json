@@ -25,7 +25,7 @@
     "fork-ts-checker-webpack-plugin": "5.0.9",
     "html-webpack-plugin": "4.3.0",
     "jest": "26.1.0",
-    "media-query-splitting-plugin": "1.1.16",
+    "media-query-splitting-plugin": "1.1.17",
     "mini-css-extract-plugin": "0.9.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "postcss-import": "12.0.1",
