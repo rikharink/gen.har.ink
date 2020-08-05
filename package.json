@@ -46,7 +46,7 @@
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0",
     "webpack-glsl-minify": "1.4.0",
-    "worker-loader": "3.0.0"
+    "worker-loader": "3.0.1"
   },
   "dependencies": {
     "lodash": "4.17.19",
