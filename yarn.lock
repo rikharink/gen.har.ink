@@ -10369,10 +10369,10 @@ webpack-dev-server@3.11.0:
     ws "^6.2.1"
     yargs "^13.3.2"
 
-webpack-glsl-minify@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/webpack-glsl-minify/-/webpack-glsl-minify-1.4.0.tgz#1b2866e244398b83b4ddaf030be0750604909c41"
-  integrity sha512-274ErQTywcidBMxI0xW612mkRBN9YMU0ekwVi3P02V95vmGnVtT6VH71qwz6pcVcVoZfZzVoOjEvEc4GbmM/7Q==
+webpack-glsl-minify@1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/webpack-glsl-minify/-/webpack-glsl-minify-1.4.1.tgz#7869ba9bdc51e79a644b5b3d9f30ae17913a1bc5"
+  integrity sha512-7caV6wLK2gjAJmM7ysjJ72JxLiixiSuwP1iMNZn4HS/Yo7c7TDMSmRzjZr+4EUcvh0MHCG++CTs3MysXCRLqeA==
   dependencies:
     glob latest
     yargs latest
