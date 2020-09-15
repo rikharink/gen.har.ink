@@ -7115,10 +7115,10 @@ pirates@^4.0.1:
   dependencies:
     node-modules-regexp "^1.0.0"
 
-pixi-projection@0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/pixi-projection/-/pixi-projection-0.3.13.tgz#5676f44e8bfc730c3ff26eb650bdc59cbddd8e26"
-  integrity sha512-Y2aoKe4yKIxvXC/NOR+pTKvJNzzhQWpo+rvp0tGvuKYDgk2D3hYd4GU+TYdkKlFD+OvJDYlEZ1AxOlyYJOwvYQ==
+pixi-projection@0.3.14:
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/pixi-projection/-/pixi-projection-0.3.14.tgz#862a833550a1f8b2b2bcb5cb7865834def17b3a0"
+  integrity sha512-/oLdOdZTbF2JLb+9p79Hs1axiybuMiNAFLEt/F0i8KO0oeMdWtySea8WFwlVBAxc0/CAWvtFGdnJPc6SAGnp4A==
 
 pixi.js@5.3.3:
   version "5.3.3"
