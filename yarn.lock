@@ -8773,7 +8773,7 @@ saxes@^5.0.0:
   dependencies:
     xmlchars "^2.2.0"
 
-schema-utils@2.7.0, schema-utils@^2.7.0:
+schema-utils@2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-2.7.0.tgz#17151f76d8eae67fbbf77960c33c676ad9f4efc7"
   integrity sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==
@@ -10579,13 +10579,13 @@ worker-farm@^1.5.2, worker-farm@^1.7.0:
   dependencies:
     errno "~0.1.7"
 
-worker-loader@3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-3.0.3.tgz#a9e3a1840589bd2d279da74c9e0e4acdadecbeec"
-  integrity sha512-yLUJqzloOnoh2/9OisTrUbUHd2a3Tfx8o8ilXHEQJ9Z/x/O/Ll+yZZOoVLT8G33IT2oCrjsIZ6jNB3OVIYCllA==
+worker-loader@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/worker-loader/-/worker-loader-3.0.4.tgz#bbc0af0af7e2d972c1105001ab215497c00b98ca"
+  integrity sha512-puFIebctLf/xB5Vex9QTX4Zr+wR6hQZqgVEg7QeUTA0I8XzTmGr620ryvY8E448C/hJ+eE+NKiIX9xyFcQNFbQ==
   dependencies:
     loader-utils "^2.0.0"
-    schema-utils "^2.7.0"
+    schema-utils "^3.0.0"
 
 wrap-ansi@^5.1.0:
   version "5.1.0"
