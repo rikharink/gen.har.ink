@@ -11,7 +11,7 @@
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "devDependencies": {
-    "@types/jest": "26.0.15",
+    "@types/jest": "26.0.24",
     "@types/lodash": "4.14.162",
     "@typescript-eslint/eslint-plugin": "4.6.0",
     "@typescript-eslint/parser": "4.6.0",
@@ -24,7 +24,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "fork-ts-checker-webpack-plugin": "6.0.4",
     "html-webpack-plugin": "4.5.0",
-    "jest": "26.6.1",
+    "jest": "26.6.3",
     "media-query-splitting-plugin": "1.1.17",
     "mini-css-extract-plugin": "1.2.1",
     "optimize-css-assets-webpack-plugin": "5.0.4",
