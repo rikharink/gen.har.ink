@@ -22,7 +22,7 @@
     "eslint": "7.12.1",
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-prettier": "3.1.4",
-    "fork-ts-checker-webpack-plugin": "6.0.4",
+    "fork-ts-checker-webpack-plugin": "6.5.3",
     "html-webpack-plugin": "4.5.0",
     "jest": "26.6.1",
     "media-query-splitting-plugin": "1.1.17",
